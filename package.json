@@ -1,0 +1,27 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "this is library mangement API backend for the management of user and the books.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev" : "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishvajadhav21-ops/Library-Management-System.git"
+  },
+  "author": "vishva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vishvajadhav21-ops/Library-Management-System/issues"
+  },
+  "homepage": "https://github.com/vishvajadhav21-ops/Library-Management-System#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
