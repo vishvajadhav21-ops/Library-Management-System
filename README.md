@@ -17,7 +17,7 @@ DELETE : Delating a user by their ID {Check if the user still has an issued book
 Get : Get a user subscription details by thiere ID
     >> Date of subscription
     >> Valid till?
-    >> Fine if any ?
+    >> Fine if any ? 
 
 
  ## /books
