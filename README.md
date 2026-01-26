@@ -53,3 +53,22 @@ Get : Get a user subscription details by thiere ID
  npm run dev // to run
 
  npm i // to restore deleted packages
+
+ npm i mongoose
+
+username
+vishvajadhav21_db_user
+Password
+ SifgeVQTdsuCTtHS
+
+ npm install mongodb
+
+ MONGO_URL=mongodb+srv://testuser:Test12345@clustera.n1sityh.mongodb.net/libraryDB
+
+
+## MVC Architecture
+     M : Model  (structure of mdb)
+     V : View  (fronted)
+     C : Controllers (logic)
+
+     DTO = data transfer object

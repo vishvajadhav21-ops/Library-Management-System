@@ -1,7 +1,11 @@
 const express = require('express');
-
+const dotenv = require('dotenv');
+const connectDB = require('./databaseConnection')
  // const data = require('./data/user.json');
  // const users = data.users;
+
+ dotenv.config();
+ connectDB();
 
 const userRouter = require('./route/user');
 const bookRouter = require('./route/book')
